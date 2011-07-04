@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               VarGuard
-version:            0.01
+version:            0.02
 abstract:           safe clean blocks for variables
 author:
     - Cindy Wang (CindyLinz)
@@ -11,7 +11,10 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Test::More:  0
+    Test::More:   0
+    Tie::Array:   0
+    Tie::Hash:    0
+    Tie::Scalar:  0
 no_index:
     directory:
         - t
